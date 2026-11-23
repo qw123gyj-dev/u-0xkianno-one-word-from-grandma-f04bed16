@@ -4,6 +4,6 @@
 
 # One Word From Grandma
 
-One word, ten characters — the single word grandma would text about AI. `main.ts` (Node 22, stdlib only, no network) writes the word to `$MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output/entry.txt`), checks it is exactly one plain word within the 1–30 character gate, reads it back and verifies the bytes match.
+One word, eleven characters — grandma's verdict on the machine that thinks it knows everything. `main.ts` (Node 22, stdlib only, no network) checks the word against the 1–30 character gate, confirms it is exactly one plain word of letters only, writes it to `$MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output/entry.txt`), then reads it back and verifies the contents match.
 
-> "Robothingy"
+> "Smartypants"
